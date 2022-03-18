@@ -1,0 +1,26 @@
+{
+  "name": "test-automation",
+  "version": "1.0.0",
+  "description": "First Framework setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint \"**/*.js\" --report-unused-disable-directives --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mdolan08/Test-Automation.git"
+  },
+  "author": "Michael Dolan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mdolan08/Test-Automation/issues"
+  },
+  "homepage": "https://github.com/Mdolan08/Test-Automation#readme",
+  "devDependencies": {
+    "axios": "^0.26.1",
+    "eslint": "^8.11.0",
+    "jest": "^27.5.1",
+    "jest-html-reporter": "^3.4.2"
+  }
+}
